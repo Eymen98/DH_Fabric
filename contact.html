@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | DH Fabrics</title>
+  <meta name="description" content="صفحة التواصل مع متجر DH للأقمشة." />
+  <link rel="icon" type="image/png" href="images/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="subpage-body">
+  <nav class="navbar navbar-solid" id="navbar">
+    <div class="container nav-content">
+      <a href="index.html#home" class="brand" aria-label="DH Fabrics home">
+        <img src="images/logo3.png" alt="DH Fabrics Logo" class="brand-logo" />
+        <!-- <div class="brand-text">
+          <strong>DH</strong>
+          <span>From Thread to Trend</span>
+        </div> -->
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-menu" id="navMenu">
+        <ul class="nav-links">
+          <li><a href="index.html#home" data-i18n="nav.home">الرئيسية</a></li>
+          <li><a href="index.html#categories" data-i18n="nav.categories">الأصناف</a></li>
+          <li><a href="index.html#about" data-i18n="nav.about">من نحن</a></li>
+          <li><a href="contact.html" class="active-link" data-i18n="nav.contact" >التواصل</a></li>
+        </ul>
+
+        <div class="language-switcher" aria-label="Language Switcher">
+          <button class="lang-btn active" data-lang="ar">AR</button>
+          <button class="lang-btn" data-lang="tr">TR</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="contact-page section first-section">
+    <div class="container">
+      <div class="section-head reveal center-text">
+        <p class="section-kicker" style="color:#7f7658;" data-i18n="contact.kicker">التواصل</p>
+        <h1 data-i18n="contact.title" style="font-size: 40px;">دعنا نساعدك في اختيار القماش المناسب</h1>
+        <p data-i18n="contact.description">تواصل معنا مباشرة لأي استفسار، طلبات خاصة، أو تفاصيل حول التشكيلة المتوفرة.</p>
+      </div>
+
+      <div class="contact-grid">
+        <section class="contact-card reveal">
+          <div class="contact-info-box">
+            <div class="contact-item">
+              <span data-i18n="contact.phoneLabel">رقم الهاتف</span>
+              <strong dir="ltr">+963 986 939 560</strong>
+            </div>
+            <div class="contact-item">
+              <span data-i18n="contact.emailLabel">البريد الإلكتروني</span>
+              <strong>info@dhfabrics.com</strong>
+              <strong>support@dhfabrics.com</strong>
+            </div>
+            <div class="contact-item">
+              <span data-i18n="contact.addressLabel">العنوان</span>
+              <strong data-i18n="contact.addressValue">Aleppo, Syria</strong>
+            </div>
+          </div>
+
+          <div class="contact-actions-grid">
+            <a class="btn btn-primary" href="https://wa.me/905551234567" target="_blank" rel="noopener" data-i18n="contact.whatsapp">واتساب</a>
+            <a class="btn btn-secondary" href="mailto:info@dhfabrics.com" data-i18n="contact.emailBtn">إرسال بريد</a>
+            <a class="btn btn-secondary" href="tel:+963986939560" data-i18n="contact.callBtn">اتصال</a>
+          </div>
+        </section>
+
+        <section class="map-wrapper reveal" aria-label="Store location map">
+          <iframe
+            title="DH Fabrics Location"
+            src="https://www.google.com/maps?q=Aleppo%2C%20Syria&z=12&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+      </div>
+    </div>
+  </main>
+
+ <!--  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h3>DH Fabrics</h3>
+        <p data-i18n="footer.companyText">أناقة كلاسيكية بروح حديثة.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4 data-i18n="footer.linksTitle">الروابط القانونية</h4>
+        <ul class="footer-links legal-links">
+          <li><a href="policies/terms.html" data-i18n="footer.terms">الشروط والأحكام</a></li>
+          <li><a href="policies/privacy.html" data-i18n="footer.privacy">سياسة الخصوصية</a></li>
+          <li><a href="policies/cookies.html" data-i18n="footer.cookies">سياسة ملفات تعريف الارتباط</a></li>
+          <li><a href="policies/accessibility.html" data-i18n="footer.accessibility">إمكانية الوصول</a></li>
+          <li><a href="policies/shipping.html" data-i18n="footer.shipping">الشحن والتسليم</a></li>
+          <li><a href="policies/kvkk.html" data-i18n="footer.kvkk">KVKK</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-cta-col">
+        <h4 data-i18n="footer.contactTitle">تواصل معنا</h4>
+        <a href="contact.html" class="btn btn-primary footer-btn" data-i18n="footer.contactBtn">صفحة التواصل</a>
+      </div>
+    </div>
+  </footer> -->
+
+  <script src="script.js"></script>
+</body>
+</html>

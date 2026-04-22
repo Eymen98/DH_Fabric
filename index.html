@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DH Fabrics | From Thread to Trend</title>
+  <meta name="description"
+    content="متجر DH للأقمشة - أناقة في كل خيط. أقمشة كتان، ساتان، قطن وحرير بتصميم حديث وأنيق." />
+  <link rel="icon" type="image/png" href="images/logo3.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="hero" id="home">
+    <div class="hero-overlay"></div>
+
+    <nav class="navbar" id="navbar">
+      <div class="container nav-content">
+        <a href="#home" class="brand" aria-label="DH Fabrics home">
+          <img src="images/logo3.png" alt="DH Fabrics Logo" class="brand-logo" />
+          <!-- <div class="brand-text">
+            <strong>DH</strong>
+            <span>From Thread to Trend</span>
+          </div> -->
+        </a>
+
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-menu" id="navMenu">
+          <ul class="nav-links">
+            <li><a href="#home" data-i18n="nav.home">الرئيسية</a></li>
+            <li><a href="#categories" data-i18n="nav.categories">الأصناف</a></li>
+            <li><a href="#about" data-i18n="nav.about">من نحن</a></li>
+            <li><a href="contact.html" data-i18n="nav.contact">التواصل</a></li>
+          </ul>
+
+          <div class="language-switcher" aria-label="Language Switcher">
+            <button class="lang-btn active" data-lang="ar">AR</button>
+            <button class="lang-btn" data-lang="tr">TR</button>
+            <button class="lang-btn" data-lang="en">EN</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container hero-content">
+      <div class="hero-copy reveal">
+        <p class="eyebrow" data-i18n="hero.eyebrow">متجر أقمشة بلمسة عصرية</p>
+        <h1 data-i18n="hero.title">أناقة في كل خيط</h1>
+        <p class="hero-description" data-i18n="hero.description">
+          تشكيلة راقية من الأقمشة المختارة بعناية لتلائم الذوق الكلاسيكي والحديث، بجودة تمنح كل تصميم قيمةً خاصة.
+        </p>
+        <div class="hero-actions">
+          <a href="#categories" class="btn btn-primary" data-i18n="hero.primaryBtn">استكشف الأصناف</a>
+          <a href="contact.html" class="btn btn-secondary" data-i18n="hero.secondaryBtn">تواصل معنا</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section categories-section" id="categories">
+      <div class="container">
+        <div class="section-head reveal center-text">
+          <p class="section-kicker" style="color:#7f7658;" data-i18n="categories.kicker">أصنافنا</p>
+          <h2 data-i18n="categories.title">أقمشة مختارة بذوق رفيع</h2>
+          <p data-i18n="categories.description">
+            اكتشف مجموعتنا الأساسية المصممة لتخدم مختلف الاستخدامات والأنماط، مع عرض بصري أنيق وتجربة تصفح سلسة.
+          </p>
+        </div>
+
+        <div class="categories-grid">
+          <a href="category.html?type=linen" class="category-card reveal category-link">
+            <div class="category-image image-linen"></div>
+            <div class="category-body">
+              <h3 data-i18n="categories.items.linen">كتان</h3>
+            </div>
+          </a>
+
+          <a href="category.html?type=viscose" class="category-card reveal category-link">
+            <div class="category-image image-viscose"></div>
+            <div class="category-body">
+              <h3 data-i18n="categories.items.viscose">فسكوزي</h3>
+            </div>
+          </a>
+
+          <a href="category.html?type=cotton" class="category-card reveal category-link">
+            <div class="category-image image-cotton"></div>
+            <div class="category-body">
+              <h3 data-i18n="categories.items.cotton">قطن</h3>
+            </div>
+          </a>
+
+          <a href="category.html?type=silk" class="category-card reveal category-link">
+            <div class="category-image image-silk"></div>
+            <div class="category-body">
+              <h3 data-i18n="categories.items.silk">حرير</h3>
+            </div>
+          </a>
+        </div>
+
+        <!-- <div class="categories-grid">
+          <article class="category-card reveal">
+            <div class="category-image image-linen"></div>
+            <div class="category-body">
+              <h3 data-i18n="categories.items.linen">كتان</h3>
+            </div>
+          </article>
+
+          <article class="category-card reveal">
+            <div class="category-image image-satin"></div>
+            <div class="category-body">
+              <h3 data-i18n="categories.items.viscose">فسكوزي</h3>
+            </div>
+          </article>
+
+          <article class="category-card reveal">
+            <div class="category-image image-cotton"></div>
+            <div class="category-body">
+              <h3 data-i18n="categories.items.cotton">قطن</h3>
+            </div>
+          </article>
+
+          <article class="category-card reveal">
+            <div class="category-image image-silk"></div>
+            <div class="category-body">
+              <h3 data-i18n="categories.items.silk">حرير</h3>
+            </div>
+          </article>
+        </div> -->
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="about-image reveal">
+          <div class="about-photo"></div>
+        </div>
+
+        <div class="about-copy reveal center-text">
+          <p class="section-kicker" style="color:#7f7658;" data-i18n="about.kicker">من نحن</p>
+          <h2 data-i18n="about.title">هوية راقية لعالم الأقمشة</h2>
+          <p data-i18n="about.text1">
+            في DH نؤمن أن القماش ليس مجرد خامة، بل بداية قصة تصميم متكاملة. لذلك نختار مجموعاتنا بعناية لنقدم مزيجًا من
+            الجودة، الذوق، والأناقة العصرية.
+          </p>
+          <p data-i18n="about.text2">
+            نسعى لتوفير تجربة تسوق مريحة وموثوقة، مع تشكيلة تناسب محبي التفاصيل الراقية والمشاريع التي تبحث عن التميز من
+            أول خيط حتى آخر لمسة.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="wide-image-section">
+      <div class="wide-image"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h3>DH Textile</h3>
+        <p data-i18n="footer.companyText">أناقة كلاسيكية بروح حديثة.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4 data-i18n="footer.linksTitle">الروابط القانونية</h4>
+        <ul class="footer-links legal-links">
+          <li><a href="policies/terms.html" data-i18n="footer.terms">الشروط والأحكام</a></li>
+          <li><a href="policies/privacy.html" data-i18n="footer.privacy">سياسة الخصوصية</a></li>
+          <li><a href="policies/cookies.html" data-i18n="footer.cookies">سياسة ملفات تعريف الارتباط</a></li>
+          <li><a href="policies/accessibility.html" data-i18n="footer.accessibility">إمكانية الوصول</a></li>
+          <li><a href="policies/shipping.html" data-i18n="footer.shipping">الشحن والتسليم</a></li>
+          <!-- <li><a href="policies/kvkk.html" data-i18n="footer.kvkk">KVKK</a></li> -->
+        </ul>
+      </div>
+
+      <div class="footer-col footer-cta-col">
+        <!-- <h4 data-i18n="footer.contactTitle">تواصل معنا</h4> -->
+        <a href="contact.html" class="btn btn-primary footer-btn" data-i18n="footer.contactBtn">صفحة التواصل</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
