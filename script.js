@@ -79,7 +79,7 @@ const translations = {
       phoneLabel: "Telefon",
       emailLabel: "E-posta",
       addressLabel: "Adres",
-      addressValue: "Bursa, Türkiye",
+      addressValue: "Halep, Suriye",
       whatsapp: "WhatsApp",
       emailBtn: "E-posta Gönder",
       callBtn: "Ara"
